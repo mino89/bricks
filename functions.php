@@ -19,6 +19,8 @@ foreach ( glob( get_template_directory() . '/functions/cpt/*.php' ) as $cpt ) { 
 
 require_once get_template_directory() . '/functions/global.php'; // --- Various global functions ---
 
+require_once get_template_directory() . '/functions/woocommerce.php'; // --- Woocommerce integration ---
+
 require_once get_template_directory() . '/functions/integrations/acf.php'; // --- ACF integration ---
 
 // require_once get_template_directory() . '/functions/integrations/cf7.php'; // --- Contact Form 7 integration ---
@@ -28,30 +30,3 @@ require_once get_template_directory() . '/functions/integrations/acf.php'; // --
 // require_once get_template_directory() . '/functions/cleanup.php'; // --- Cleanup ---
 
 require_once get_template_directory() . '/functions/custom.php'; // --- Custom user functions ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
